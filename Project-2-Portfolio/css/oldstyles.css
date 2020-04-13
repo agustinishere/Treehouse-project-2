@@ -1,0 +1,175 @@
+* {
+
+}
+body {
+    /*
+    background-color: rgb(111, 87, 151);
+    */
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.15em;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    text-align: unset;
+}
+li {
+    list-style: none;
+}
+header {
+    width: 100%;
+    background-color: rgb(75, 156, 223);
+    margin: 0 auto;
+}
+h1 {
+    font-size: 1.1em;
+    padding-bottom: .5em;
+}
+h4 {
+    margin-bottom: 1em;
+}
+h3 {
+    font-size: .7em;
+}
+
+/*---------------------------NAV INFO------------------------*/
+.top-nav {
+    letter-spacing: .08em;
+}
+li a{
+
+}
+.name {
+    font-size: 1.5em;
+    margin: .4em 0;
+    padding-top: .3em;
+    font-weight: 800;
+}
+.top-nav ul{
+    text-align: center;
+}
+.top-nav li {
+    margin: .28em 1em;
+    padding: .4em 2em;
+    font-weight: 600;
+    font-size: .8em;
+    background-color: rgb(176, 182, 174);
+    position: relative;
+}
+
+/*------------STUDENT INFO AREA----------*/
+.student-info {
+/*
+    background-color: rgb(77, 122, 32);
+*/
+    padding-top: 1em;
+}
+.img-paragraph {
+    padding: .0 1.4em 1em 1.4em;
+    font-size: .9em;
+}
+.img-div {
+    text-align: center;
+    background-color: lavender;
+    width: 70%;
+    margin: 10% auto 5%;
+}
+.developer-img{
+    width: 100%;
+}
+
+/*------------MAIN CONTENT------------*/
+main img{
+    width: 80%;
+}
+.contact {
+    padding: 1em 0 0 0;
+    background-color:;
+}
+
+main div {
+    margin-top: 1em;
+}
+main p {
+    width: 60%;
+    margin: 0 auto;
+    font-size: .7em;
+}
+.contact p{
+    width: 90%;
+    padding: 2%;
+}
+.contact-h3 {
+    padding-top: 2%;
+}
+.profile-pics {
+    margin-bottom: .5em;
+}
+.portfolio-divs h2 {
+    padding-bottom: .3em;
+    font-size: 1em;
+}
+
+/*------------FOOTER----------*/
+footer {
+    background-color: lightblue;
+    padding: .5em 0;
+}
+.footer-hr {
+    width: 90%;
+    border-top: 2px solid black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*.footer-h5 {
+    padding-top: .5em;
+}*/
+.contact-h3 {
+    padding-bottom: 1em;
+}
+.info-para {
+    width: 75%;
+    margin: 0 auto;
+}
+
+footer nav {
+    display: none;
+}
+/*---------------MEDIA QUERIES-----------------*/
+
+ @media(min-width:767px) {
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+.container-1 div{
+    border: 3px rgb(19, 224, 64) solid;
+    display: flex;    
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    }
+.box-1 {
+    width: ;
+}
+.box-2 {
+    width: ;
+}
+    
+
+    }
+
+
+
+}
+
+@media (min-width:1023px){
+
+}
